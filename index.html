@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+ <div class="container">
+     <div class="row">
+         <div class="col-4 mt-3">
+             <p title="hello word">Lorem ipsum dolor.</p>
+             <button type="button" class="btn btn-success" title="Hello word" data-target="tooltip" data-placement="top">
+                 Hover me!
+             </button>
+             <button type="button" class="btn btn-success" title="Hello word" data-target="tooltip" data-placement="lefy">
+                 Hover me!
+             </button>
+
+             <button type="button" class="btn btn-success" title="Hello word" data-target="tooltip" data-placement="right">
+                 Hover me!
+             </button>
+
+             <button type="button" class="btn btn-success" title="Hello word" data-target="tooltip" data-placement="bottom">
+                 Hover me!
+             </button>
+         </div>
+
+         <div class="col-4 mt-3">
+             <div class="row">
+                 <div class="col-4 mt-3">
+                     <button type="button" class="btn btn-primary" data-toggle="popover" title="Nimadir" data-content="ichiga" data-placement="left">Clik me</button>
+                 </div>
+             </div>
+         </div>
+
+         <div class="col-4 mt-3">
+             <div class="toast" data-autohide="false">
+                 <div class="toast-header">
+                     <h6>Xatolik <button type="button" class="close ml-3" data-dismiss="toast">&times;</button></h6>
+                 </div>
+                 <div class="toast-body">
+                     Login yoki parol
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+<script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="Bootstrap/js/popper.min.js"></script>
+<script src="Bootstrap/js/bootstrap.js"></script>
+
+ <script>
+     $(document).ready(function(){
+         $('[data-toggle="tooltip"]').tooltip();
+         $('[data-toggle="popover"]').popover();
+         $('.toast').toast('show');
+     });
+ </script>
+
+</body>
+</html>

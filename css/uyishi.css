@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/background.png");
+   background-size:  100%;
+    background-repeat:no-repeat ;
+
+}
+
+.btn-outline-warning:hover{
+    color:white;
+}
+.container .row .col-4 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.rang{
+    width: 100%;
+    height: 110px;
+}
+.card{
+    margin-top: 80px;
+    background-color: white;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    background-color: #0f6674;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+.container .row .col-7{
+    position: relative;
+}
+.container .row .col-5 .row img{
+    height: 40px;
+    width: 40px;
+}
+.kok{
+    width: 100%;
+    height: 60px;
+    background-color: #252B43;
+}
+.ust{
+    background-color: #16697B;
+    color: white;
+    padding: 15px ;
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    position: absolute;
+    bottom: -150px;
+}
+
+.input-group{
+    width: 50%;
+}
+.container{
+    position: relative;
+}
+.kard{
+    width: 275px;
+    margin-left: 65%;
+}
+.kard img{
+    width:60px;
+    height: 60px;
+}
+
+
+.container .row .col-4 button{
+    background-color:  #F0A84A;
+}
+.container .row .col-4 .kard .card:hover{
+    transform: scale(1.2);
+    color: white;
+    background-color: #252B43;
+
+
+}
+
+.container .row .col-2 a {
+    text-decoration: none;
+    color: white;
+}
+.container .row. .col-4 .row p{
+    color: white;
+}
+
+.container .row .col-2 a{
+    padding-left: 10px;
+}
